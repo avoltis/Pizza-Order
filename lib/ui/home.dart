@@ -49,8 +49,19 @@ class Home extends StatelessWidget {
                             fontFamily: "Oxygen",
                             fontWeight: FontWeight.normal)))
               ],
-            )
+            ),
+            PizzaImageWidget()
               ],
             )));
+  }
+}
+
+class PizzaImageWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    AssetImage pizzaAsset = AssetImage('lib/images/pizzaslicebig.png');
+    Image image = Image(image: pizzaAsset, width: 200.0, height: 200.0);
+
+    return Container(child: image);
   }
 }

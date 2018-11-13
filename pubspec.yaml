@@ -37,9 +37,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - lib/images/pizzaslicebig.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
@@ -55,10 +54,10 @@ flutter:
   fonts:
     - family: Oxygen
       fonts:
-        - asset: fonts/Oxygen-Regular.ttf
-        - asset: fonts/Oxygen-Bold.ttf
+        - asset: lib/fonts/Oxygen-Regular.ttf
+        - asset: lib/fonts/Oxygen-Bold.ttf
           weight: 700
-        - asset: fonts/Oxygen-Light.ttf
+        - asset: lib/fonts/Oxygen-Light.ttf
           weight: 300
   
   # For details regarding fonts from package dependencies,
